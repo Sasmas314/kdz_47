@@ -27,7 +27,7 @@ CREATE TABLE kdz_47_src.src_flights (
 -- Создание таблицы src_weather
 
 CREATE TABLE kdz_47_src.src_weather (
-	icao_code varchar(10) NOT NULL DEFAULT 'LNK'::character varying,
+	icao_code varchar(10) NOT NULL DEFAULT 'KATL'::character varying,
 	local_datetime timestamp NOT NULL,
 	t_air_temperature numeric(3, 1) NOT NULL,
 	p0_sea_lvl numeric(4, 1) NULL,
